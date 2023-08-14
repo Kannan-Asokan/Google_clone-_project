@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.heading {
+  padding: 0.8rem;
+  margin-right: -10px;
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Apps {
+  width: 16px;
+  height: 17px;
+  opacity: 0.7;
+  cursor: pointer;
+  mix-blend-mode: color-burn;
+}
+.signin {
+  font: inherit;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgba(83, 80, 231, 0.911);
+  border: none;
+  width: 95px;
+  height: 36px;
+  border-radius: 4px;
+  color: white;
+  margin-right: 10px;
+}
+.signin:hover {
+  cursor: pointer;
+  background-color: rgba(33, 30, 182, 0.911);
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(33, 30, 182, 0.911);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+li:nth-child(3) {
+  flex-basis: 25px;
+  margin-top: 5px;
+}
+li:nth-child(2) {
+  flex-basis: 50px;
+}
+li:is(:nth-child(1), :nth-child(2)):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.centerimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 7vh;
+  mix-blend-mode: color-burn;
+}
+.searchbox {
+  position: absolute;
+  width: 42%;
+  margin: 28px;
+  margin-left: 29vw;
+  background-image: url("/image-icons/magnifying-glass-solid.svg");
+  background-size: 3%;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  margin-bottom: 12px;
+  border-radius: 25px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.836);
+}
+.micandcamera {
+  cursor: pointer;
+}
+.micandcamera .mic {
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  margin: 39px;
+  margin-left: 65vw;
+  filter: opacity(85%);
+}
+.micandcamera .camera {
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  margin: 39px;
+  margin-left: 67.9vw;
+  filter: opacity(85%);
+}
+.searchbox:hover {
+  box-shadow: 1px 1px 1px 1.5px rgba(0, 0, 0, 0.11);
+}
+.uppericons {
+  list-style-type: none;
+  position: absolute;
+  display: flex;
+  margin-left: 33vw;
+  margin-top: 15vh;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+}
+.uppericons img {
+  height: 100px;
+  transform: scale(0.3);
+  mix-blend-mode: color-burn;
+}
+.ui1:hover,
+.ui2:hover,
+.ui3:hover,
+.ui4:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+.ui3 {
+  padding-bottom: 2.5px;
+}
+.ui4 {
+  padding-top: 2px;
+}
+.uinames {
+  list-style-type: none;
+  position: absolute;
+  display: flex;
+  margin-left: 35.2vw;
+  margin-top: 28vh;
+  gap: 75px;
+  cursor: pointer;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.uinames1 {
+  position: absolute;
+  cursor: pointer;
+  margin-top: -0.5vh;
+}
+.uinames2 {
+  position: absolute;
+  margin-left: 9vw;
+  cursor: pointer;
+}
+.uinames4 {
+  position: absolute;
+  margin-left: 25.7vw;
+  cursor: pointer;
+}
+.uinames3 {
+  position: absolute;
+  margin-left: 17.3vw;
+  cursor: pointer;
+}
+.lowericons {
+  list-style-type: none;
+  position: absolute;
+  display: flex;
+  margin-left: 32.5vw;
+  margin-top: 33vh;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+}
+.lowericons img {
+  height: 100px;
+  transform: scale(0.3);
+  mix-blend-mode: color-burn;
+}
+.li1:hover,
+.li2:hover,
+.li3:hover,
+.li4:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+.li3 {
+  padding-bottom: 2.5px;
+}
+.li4 {
+  padding-top: 2px;
+}
+.linames1 {
+  position: absolute;
+  margin-left: 34.3vw;
+  margin-top: 46.5vh;
+  cursor: pointer;
+}
+.linames2 {
+  position: absolute;
+  margin-left: 43.2vw;
+  margin-top: 46.5vh;
+  cursor: pointer;
+}
+.linames4 {
+  position: absolute;
+  margin-left: 61.5vw;
+  margin-top: 46.5vh;
+  cursor: pointer;
+}
+.linames3 {
+  position: absolute;
+  margin-left: 52.2vw;
+  margin-top: 46.7vh;
+  cursor: pointer;
+}
+.uinames,.linames {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+::-webkit-scrollbar {
+  display: none;
+}
